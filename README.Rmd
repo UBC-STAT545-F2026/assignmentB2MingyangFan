@@ -1,0 +1,36 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# assignmentB2MingyangFan
+
+The goal of assignmentB2MingyangFan is to provide a function that counts the number of missing values for all columns in each group of a dataset. This package gives users the opportunity to identify and compare these missing values.
+
+## Installation
+
+Package installation can be done directly by calling
+
+`devtools::install_github("UBC-STAT545-F2026/assignmentB2MingyangFan")`
+
+
+## Example
+
+This is an example using the built-in airquality dataset to count the missing values in each column for each month:
+
+```{r example}
+library(assignmentB2MingyangFan)
+
+count_all_missing_by_group(airquality, Month)
+```
+
