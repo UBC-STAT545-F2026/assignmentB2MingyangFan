@@ -12,7 +12,7 @@ missing values.
 
 Package installation can be done directly by calling
 
-`devtools::install_github("UBC-STAT545-F2026/assignmentB2MingyangFan")`
+`devtools::install_github("UBC-STAT545-F2026/assignmentB2MingyangFan", ref = "0.1.0")`
 
 ## Example
 
